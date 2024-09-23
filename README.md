@@ -13,6 +13,22 @@ This repository demonstrates the process of fine-tuning LLAVA for various tasks,
   - A notebook for fine-tuning LLAVA 1.6 7B
   - A notebook for testing the fine-tuned model
 
+  In terminal:
+    sudo apt update
+    sudo apt install python3.10-venv
+    sudo apt install nvidia-cuda-toolkit
+    sudo apt install git 
+
+    mkdir codebase
+    cd codebase 
+    git clone <git_repo>
+    cd <git_repo>
+    python3 -m venv .venv
+    source ./venv/bin/activate
+    pip install -r requirements.txt
+    pip install git+https://github.com/huggingface/transformers.git
+    pip install torch
+
 - **`test_model/`**  
   Contains multiple notebooks for testing:
   - LLAVA 1.5 7B and 13B
