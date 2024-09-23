@@ -7,22 +7,7 @@ This repository demonstrates the process of fine-tuning LLAVA for various tasks,
 ### Notebooks
 - **`data_exploration/`**  
   Contains notebooks for exploring the [Cord-V2](https://huggingface.co/datasets/naver-clova-ix/cord-v2) and [DocVQA](https://huggingface.co/datasets/nielsr/docvqa_1200_examples) datasets.
-For finetuning:
-In terminal:
-  sudo apt update
-  sudo apt install python3.10-venv
-  sudo apt install nvidia-cuda-toolkit
-  sudo apt install git
 
-  mkdir codebase
-  cd codebase
-  git clone <git_repo>
-  cd git_repo
-  python3 -m venv .venv
-  source .venv/bin/activate
-  pip install -r requirements.txt
-  pip install git+https://github.com/huggingface/transformers.git
-  pip install torch
 - **`fine-tuning/`**  
   Includes:
   - A notebook for fine-tuning LLAVA 1.6 7B
