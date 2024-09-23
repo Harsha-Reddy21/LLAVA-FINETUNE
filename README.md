@@ -14,7 +14,7 @@ This repository demonstrates the process of fine-tuning LLAVA for various tasks,
   - A notebook for testing the fine-tuned model
 
   In terminal:
-    sudo apt update
+    sudo apt update \n
     sudo apt install python3.10-venv
     sudo apt install nvidia-cuda-toolkit
     sudo apt install git 
